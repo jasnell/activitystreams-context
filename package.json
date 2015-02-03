@@ -1,0 +1,10 @@
+{
+  "name": "activitystreams-context",
+  "version": "0.2.0",
+  "description": "Activity Streams 2.0 JSON-LD Context (Based on 2nd Public Working Draft - http://www.w3.org/TR/2015/WD-activitystreams-core-20150129/)",
+  "main": "./context.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "James M Snell <jasnell@gmail.com>"
+}
