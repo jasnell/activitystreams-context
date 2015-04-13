@@ -9,7 +9,7 @@
     "org": "http://www.w3.org/ns/org#",
     "prov": "http://www.w3.org/ns/prov#",
     "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
-    "geos": "http://www.opengis.net/ont/geosparql#",
+    "gsp": "http://www.opengis.net/ont/geosparql#",
     "ical": "http://www.w3.org/2002/12/cal/ical#",
     "xsd": "http://www.w3.org/2001/XMLSchema#"
   },
@@ -21,7 +21,6 @@
     "IntransitiveActivity": "as:IntransitiveActivity",
     "ActivityHandler": "as:ActivityHandler",
     "Actor": "as:Actor",
-    "Achieve": "as:Achieve",
     "Add": "as:Add",
     "Album": "as:Album",
     "Announce": "as:Announce",
@@ -38,7 +37,6 @@
     "Content": "as:Content",
     "Create": "as:Create",
     "Delete": "as:Delete",
-    "Device": "as:Device",
     "Dislike": "as:Dislike",
     "Document": "as:Document",
     "EmbeddedView": "as:EmbeddedView",
@@ -65,7 +63,6 @@
     "Object": "as:Object",
     "Offer": "as:Offer",
     "OrderedCollection": "as:OrderedCollection",
-    "Organization": "as:Organization",
     "Page": "as:Page",
     "Parameter": "as:Parameter",
     "Payload": "as:Payload",
@@ -74,12 +71,12 @@
     "PossibleAnswer": "as:PossibleAnswer",
     "Post": "as:Post",
     "Process": "as:Process",
+    "Profile": "as:Profile",
     "Question": "as:Question",
     "Reject": "as:Reject",
     "Remove": "as:Remove",
-    "Reservation": "as:Reservation",
+    "Relationship": "as:Relationship",
     "Review": "as:Review",
-    "Role": "as:Role",
     "Save": "as:Save",
     "Service": "as:Service",
     "Share": "as:Share",
@@ -218,14 +215,6 @@
       "@id": "as:inReplyTo",
       "@type": "@id"
     },
-    "instrument": {
-      "@id": "as:instrument",
-      "@type": "@id"
-    },
-    "instrumentOf": {
-      "@id": "as:instrumentOf",
-      "@type": "@id"
-    },
     "items": {
       "@id": "as:items",
       "@type": "@id"
@@ -281,14 +270,6 @@
     },
     "parameter": {
       "@id": "as:parameter",
-      "@type": "@id"
-    },
-    "participant": {
-      "@id": "as:participant",
-      "@type": "@id"
-    },
-    "participantOf": {
-      "@id": "as:participantOf",
       "@type": "@id"
     },
     "prev": {
@@ -459,7 +440,6 @@
       "@id": "as:startTime",
       "@type": "xsd:dateTime"
     },
-    "status": "as:status",
     "summary": "as:summary",
     "summaryMap": {
       "@id": "as:summary",
@@ -493,14 +473,10 @@
     "role": {
       "@id": "as:role",
       "@type": "@id"
-    },
-    "accuracy": {
-      "@id": "as:accuracy",
-      "@type": "xsd:float"
     }
   },
  {
-    "geos:asWKT": { "@type": "geos:wktLiteral" },
+    "gsp:asWKT": { "@type": "gsp:wktLiteral" },
     "geo:alt": {"@type": "xsd:float"},
     "geo:lat": {"@type": "xsd:float"},
     "geo:long": {"@type": "xsd:float"},
