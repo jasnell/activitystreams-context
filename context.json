@@ -12,11 +12,9 @@
     "Application": "as:Application",
     "Arrive": "as:Arrive",
     "Article": "as:Article",
-    "Assign": "as:Assign",
     "Audio": "as:Audio",
     "Block": "as:Block",
     "Collection": "as:Collection",
-    "Confirm": "as:Confirm",
     "Connection": "as:Connection",
     "Content": "as:Content",
     "Create": "as:Create",
@@ -28,7 +26,6 @@
     "Folder": "as:Folder",
     "Follow": "as:Follow",
     "Flag": "as:Flag",
-    "Give": "as:Give",
     "Group": "as:Group",
     "Ignore": "as:Ignore",
     "Image": "as:Image",
@@ -45,16 +42,12 @@
     "Page": "as:Page",
     "Person": "as:Person",
     "Place": "as:Place",
-    "Post": "as:Post",
     "Process": "as:Process",
     "Profile": "as:Profile",
     "Question": "as:Question",
     "Reject": "as:Reject",
     "Remove": "as:Remove",
-    "Review": "as:Review",
-    "Save": "as:Save",
     "Service": "as:Service",
-    "Share": "as:Share",
     "Story": "as:Story",
     "TentativeAccept": "as:TentativeAccept",
     "TentativeReject": "as:TentativeReject",
@@ -63,10 +56,8 @@
     "Video": "as:Video",
     "Experience": "as:Experience",
     "View": "as:View",
-    "Watch": "as:Watch",
     "Listen": "as:Listen",
     "Read": "as:Read",
-    "Respond": "as:Respond",
     "Move": "as:Move",
     "Travel": "as:Travel",
     "a": {
@@ -79,10 +70,6 @@
     },
     "relationship": {
       "@id": "as:relationship",
-      "@type": "@id"
-    },
-    "action": {
-      "@id": "as:action",
       "@type": "@id"
     },
     "actor": {
@@ -238,10 +225,6 @@
       "@id": "as:altitude",
       "@type": "xsd:float"
     },
-    "confirm": {
-      "@id": "as:confirm",
-      "@type": "xsd:boolean"
-    },
     "content": "as:content",
     "contentMap": {
       "@id": "as:content",
@@ -338,6 +321,10 @@
     "width": {
       "@id": "as:width",
       "@type": "xsd:nonNegativeInteger"
+    },
+    "describes": {
+      "@id": "as:describes",
+      "@type": "@id"
     }
   }
 }
