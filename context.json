@@ -1,6 +1,7 @@
 {
   "@context": {
     "@vocab": "_:",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
     "as": "http://www.w3.org/ns/activitystreams#",
     "Accept": "as:Accept",
     "Activity": "as:Activity",
@@ -15,7 +16,7 @@
     "Audio": "as:Audio",
     "Block": "as:Block",
     "Collection": "as:Collection",
-    "Connection": "as:Connection",
+    "Relationship": "as:Relationship",
     "Content": "as:Content",
     "Create": "as:Create",
     "Delete": "as:Delete",
@@ -60,12 +61,8 @@
     "Read": "as:Read",
     "Move": "as:Move",
     "Travel": "as:Travel",
-    "a": {
-      "@id": "as:a",
-      "@type": "@id"
-    },
-    "b": {
-      "@id": "as:b",
+    "subject": {
+      "@id": "as:subject",
       "@type": "@id"
     },
     "relationship": {
@@ -134,6 +131,10 @@
     },
     "items": {
       "@id": "as:items",
+      "@type": "@id"
+    },
+    "instrument": {
+      "@id": "as:instrument",
       "@type": "@id"
     },
     "orderedItems": {
