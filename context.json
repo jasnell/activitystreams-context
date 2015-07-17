@@ -23,7 +23,6 @@
     "Dislike": "as:Dislike",
     "Document": "as:Document",
     "Event": "as:Event",
-    "Favorite": "as:Favorite",
     "Folder": "as:Folder",
     "Follow": "as:Follow",
     "Flag": "as:Flag",
@@ -40,6 +39,7 @@
     "Object": "as:Object",
     "Offer": "as:Offer",
     "OrderedCollection": "as:OrderedCollection",
+    "Organization": "as:Organization",
     "Page": "as:Page",
     "Person": "as:Person",
     "Place": "as:Place",
@@ -61,6 +61,11 @@
     "Read": "as:Read",
     "Move": "as:Move",
     "Travel": "as:Travel",
+    "isBlocking": "as:isBlocking",
+    "isIgnoring": "as:isIgnoring",
+    "isFollowing": "as:isFollowing",
+    "isFollowedBy": "as:isFollowedBy",
+    "isMemberOf": "as:isMemberOf",
     "subject": {
       "@id": "as:subject",
       "@type": "@id"
@@ -182,8 +187,20 @@
       "@id": "as:provider",
       "@type": "@id"
     },
-    "replies": {
-      "@id": "as:replies",
+    "inbox": {
+      "@id": "as:inbox",
+      "@type": "@id"
+    },
+    "outbox": {
+      "@id": "as:outbox",
+      "@type": "@id"
+    },
+    "relationships": {
+      "@id": "as:relationships",
+      "@type": "@id"
+    },
+    "store": {
+      "@id": "as:store",
       "@type": "@id"
     },
     "result": {
