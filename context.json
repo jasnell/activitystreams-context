@@ -61,11 +61,6 @@
     "Read": "as:Read",
     "Move": "as:Move",
     "Travel": "as:Travel",
-    "isBlocking": "as:isBlocking",
-    "isIgnoring": "as:isIgnoring",
-    "isFollowing": "as:isFollowing",
-    "isFollowedBy": "as:isFollowedBy",
-    "isMemberOf": "as:isMemberOf",
     "subject": {
       "@id": "as:subject",
       "@type": "@id"
@@ -175,6 +170,10 @@
       "@id": "as:origin",
       "@type": "@id"
     },
+    "accuracy": {
+      "@id": "as:accuracy",
+      "@type": "xsd:float"
+    },
     "prev": {
       "@id": "as:prev",
       "@type": "@id"
@@ -187,20 +186,8 @@
       "@id": "as:provider",
       "@type": "@id"
     },
-    "inbox": {
-      "@id": "as:inbox",
-      "@type": "@id"
-    },
-    "outbox": {
-      "@id": "as:outbox",
-      "@type": "@id"
-    },
-    "relationships": {
-      "@id": "as:relationships",
-      "@type": "@id"
-    },
-    "store": {
-      "@id": "as:store",
+    "replies": {
+      "@id": "as:replies",
       "@type": "@id"
     },
     "result": {
