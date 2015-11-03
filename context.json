@@ -3,6 +3,8 @@
     "@vocab": "_:",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "as": "http://www.w3.org/ns/activitystreams#",
+    "id": "@id",
+    "type": "@type",
     "Accept": "as:Accept",
     "Activity": "as:Activity",
     "IntransitiveActivity": "as:IntransitiveActivity",
@@ -45,7 +47,6 @@
     "Page": "as:Page",
     "Person": "as:Person",
     "Place": "as:Place",
-    "Process": "as:Process",
     "Profile": "as:Profile",
     "Question": "as:Question",
     "Reject": "as:Reject",
@@ -57,7 +58,6 @@
     "Undo": "as:Undo",
     "Update": "as:Update",
     "Video": "as:Video",
-    "Experience": "as:Experience",
     "View": "as:View",
     "Listen": "as:Listen",
     "Read": "as:Read",
@@ -224,10 +224,6 @@
       "@id": "as:url",
       "@type": "@id"
     },
-    "alias": {
-      "@id": "as:alias",
-      "@type": "@id"
-    },
     "altitude": {
       "@id": "as:altitude",
       "@type": "xsd:float"
@@ -244,10 +240,6 @@
     },
     "downstreamDuplicates": "as:downStreamDuplicates",
     "duration": {
-      "@id": "as:duration",
-      "@type": "xsd:nonNegativeInteger"
-    },
-    "durationIso": {
       "@id": "as:duration",
       "@type": "xsd:duration"
     },
@@ -275,10 +267,6 @@
     },
     "mediaType": "as:mediaType",
     "objectType": "as:objectType",
-    "priority": {
-      "@id": "as:priority",
-      "@type": "xsd:float"
-    },
     "published": {
       "@id": "as:published",
       "@type": "xsd:dateTime"
