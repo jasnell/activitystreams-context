@@ -10,7 +10,6 @@
     "IntransitiveActivity": "as:IntransitiveActivity",
     "Actor": "as:Actor",
     "Add": "as:Add",
-    "Album": "as:Album",
     "Announce": "as:Announce",
     "Application": "as:Application",
     "Arrive": "as:Arrive",
@@ -26,7 +25,6 @@
     "Dislike": "as:Dislike",
     "Document": "as:Document",
     "Event": "as:Event",
-    "Folder": "as:Folder",
     "Follow": "as:Follow",
     "Flag": "as:Flag",
     "Group": "as:Group",
@@ -52,7 +50,6 @@
     "Reject": "as:Reject",
     "Remove": "as:Remove",
     "Service": "as:Service",
-    "Story": "as:Story",
     "TentativeAccept": "as:TentativeAccept",
     "TentativeReject": "as:TentativeReject",
     "Undo": "as:Undo",
@@ -233,9 +230,9 @@
       "@id": "as:content",
       "@container": "@language"
     },
-    "displayName": "as:displayName",
-    "displayNameMap": {
-      "@id": "as:displayName",
+    "name": "as:name",
+    "nameMap": {
+      "@id": "as:name",
       "@container": "@language"
     },
     "downstreamDuplicates": "as:downStreamDuplicates",
@@ -289,11 +286,6 @@
     "summary": "as:summary",
     "summaryMap": {
       "@id": "as:summary",
-      "@container": "@language"
-    },
-    "title": "as:title",
-    "titleMap": {
-      "@id": "as:title",
       "@container": "@language"
     },
     "totalItems": {
