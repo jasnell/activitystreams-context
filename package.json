@@ -1,15 +1,14 @@
 {
   "name": "activitystreams-context",
-  "version": "0.9.0",
+  "version": "0.10.0",
   "description": "Activity Streams 2.0 JSON-LD Context (Based current Editor's Draft)",
   "main": "./context.json",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "author": {
     "name": "James M Snell",
     "email": "jasnell@gmail.com"
   },
+  "license": "MIT",
   "keywords": [
     "activitystreams"
   ],
