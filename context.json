@@ -1,3 +1,4 @@
+
 {
   "@context": {
     "@vocab": "_:",
@@ -8,7 +9,6 @@
     "Accept": "as:Accept",
     "Activity": "as:Activity",
     "IntransitiveActivity": "as:IntransitiveActivity",
-    "Actor": "as:Actor",
     "Add": "as:Add",
     "Announce": "as:Announce",
     "Application": "as:Application",
@@ -51,6 +51,7 @@
     "Service": "as:Service",
     "TentativeAccept": "as:TentativeAccept",
     "TentativeReject": "as:TentativeReject",
+    "Tombstone": "as:Tombstone",
     "Undo": "as:Undo",
     "Update": "as:Update",
     "Video": "as:Video",
@@ -59,6 +60,10 @@
     "Read": "as:Read",
     "Move": "as:Move",
     "Travel": "as:Travel",
+    "IsFollowing": "as:IsFollowing",
+    "IsFollowedBy": "as:IsFollowedBy",
+    "IsContact": "as:IsContact",
+    "IsMember": "as:IsMember",
     "subject": {
       "@id": "as:subject",
       "@type": "@id"
@@ -164,6 +169,10 @@
       "@id": "as:anyOf",
       "@type": "@id"
     },
+    "closed": {
+      "@id": "as:closed",
+      "@type": "xsd:dateTime"
+    },
     "origin": {
       "@id": "as:origin",
       "@type": "@id"
@@ -192,8 +201,8 @@
       "@id": "as:result",
       "@type": "@id"
     },
-    "scope": {
-      "@id": "as:scope",
+    "audience": {
+      "@id": "as:audience",
       "@type": "@id"
     },
     "partOf": {
@@ -305,6 +314,14 @@
     "describes": {
       "@id": "as:describes",
       "@type": "@id"
+    },
+    "formerType": {
+      "@id": "as:formerType",
+      "@type": "@id"
+    },
+    "deleted": {
+      "@id": "as:deleted",
+      "@type": "xsd:dateTime"
     }
   }
 }
