@@ -1,7 +1,7 @@
 {
   "name": "activitystreams-context",
-  "version": "0.11.0",
-  "description": "Activity Streams 2.0 JSON-LD Context (Based current Editor's Draft)",
+  "version": "1.0.0",
+  "description": "Activity Streams 2.0 JSON-LD Context",
   "main": "./context.json",
   "scripts": {},
   "author": {
@@ -10,7 +10,9 @@
   },
   "license": "MIT",
   "keywords": [
-    "activitystreams"
+    "activitystreams",
+    "Activity Streams 2.0",
+    "Activity Streams"
   ],
   "maintainers": [
     "James M Snell <jasnell@gmail.com> (http://jasnell.me)"
