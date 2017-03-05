@@ -3,7 +3,8 @@
   "@context": {
     "@vocab": "_:",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "as": "http://www.w3.org/ns/activitystreams#",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
     "id": "@id",
     "type": "@type",
     "Accept": "as:Accept",
@@ -60,10 +61,6 @@
     "Read": "as:Read",
     "Move": "as:Move",
     "Travel": "as:Travel",
-    "IsFollowing": "as:IsFollowing",
-    "IsFollowedBy": "as:IsFollowedBy",
-    "IsContact": "as:IsContact",
-    "IsMember": "as:IsMember",
     "subject": {
       "@id": "as:subject",
       "@type": "@id"
@@ -82,14 +79,6 @@
     },
     "attachment": {
       "@id": "as:attachment",
-      "@type": "@id"
-    },
-    "attachments": {
-      "@id": "as:attachments",
-      "@type": "@id"
-    },
-    "author": {
-      "@id": "as:author",
       "@type": "@id"
     },
     "bcc": {
@@ -189,10 +178,6 @@
       "@id": "as:preview",
       "@type": "@id"
     },
-    "provider": {
-      "@id": "as:provider",
-      "@type": "@id"
-    },
     "replies": {
       "@id": "as:replies",
       "@type": "@id"
@@ -210,10 +195,6 @@
       "@type": "@id"
     },
     "tag": {
-      "@id": "as:tag",
-      "@type": "@id"
-    },
-    "tags": {
       "@id": "as:tag",
       "@type": "@id"
     },
@@ -243,7 +224,6 @@
       "@id": "as:name",
       "@container": "@language"
     },
-    "downstreamDuplicates": "as:downStreamDuplicates",
     "duration": {
       "@id": "as:duration",
       "@type": "xsd:duration"
@@ -278,10 +258,6 @@
       "@id": "as:radius",
       "@type": "xsd:float"
     },
-    "rating": {
-      "@id": "as:rating",
-      "@type": "xsd:float"
-    },
     "rel": "as:rel",
     "startIndex": {
       "@id": "as:startIndex",
@@ -305,8 +281,6 @@
       "@id": "as:updated",
       "@type": "xsd:dateTime"
     },
-    "upstreamDuplicates": "as:upstreamDuplicates",
-    "verb": "as:verb",
     "width": {
       "@id": "as:width",
       "@type": "xsd:nonNegativeInteger"
@@ -322,6 +296,43 @@
     "deleted": {
       "@id": "as:deleted",
       "@type": "xsd:dateTime"
-    }
+    },
+    "inbox": {
+      "@id": "ldp:inbox",
+      "@type": "@id"
+    },
+    "outbox": {
+      "@id": "as:outbox",
+      "@type": "@id"
+    },
+    "following": {
+      "@id": "as:following",
+      "@type": "@id"
+    },
+    "followers": {
+      "@id": "as:followers",
+      "@type": "@id"
+    },
+    "streams": {
+      "@id": "as:streams",
+      "@type": "@id"
+    },
+    "preferredUsername": "as:preferredUsername",
+    "endpoints": {
+      "@id": "as:endpoints",
+      "@type": "@id"
+    },
+    "uploadMedia": {
+      "@id": "as:uploadMedia",
+      "@type": "@id"
+    },
+    "proxyUrl": {
+      "@id": "as:proxyUrl",
+      "@type": "@id"
+    },
+    "oauthClientAuthorize": "as:oauthClientAuthorize",
+    "provideClientKey": "as:provideClientKey",
+    "authorizeClientKey": "as:authorizeClientKey",
+    "source": "as:source"
   }
 }
