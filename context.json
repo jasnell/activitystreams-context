@@ -1,4 +1,3 @@
-
 {
   "@context": {
     "@vocab": "_:",
@@ -61,6 +60,10 @@
     "Read": "as:Read",
     "Move": "as:Move",
     "Travel": "as:Travel",
+    "IsFollowing": "as:IsFollowing",
+    "IsFollowedBy": "as:IsFollowedBy",
+    "IsContact": "as:IsContact",
+    "IsMember": "as:IsMember",
     "subject": {
       "@id": "as:subject",
       "@type": "@id"
@@ -68,6 +71,10 @@
     "relationship": {
       "@id": "as:relationship",
       "@type": "@id"
+    },
+    "totalItems": {
+      "@id": "as:totalItems",
+      "@type": "xsd:nonNegativeInteger"
     },
     "actor": {
       "@id": "as:actor",
@@ -272,10 +279,6 @@
       "@id": "as:summary",
       "@container": "@language"
     },
-    "totalItems": {
-      "@id": "as:totalItems",
-      "@type": "xsd:nonNegativeInteger"
-    },
     "units": "as:units",
     "updated": {
       "@id": "as:updated",
@@ -330,9 +333,30 @@
       "@id": "as:proxyUrl",
       "@type": "@id"
     },
-    "oauthClientAuthorize": "as:oauthClientAuthorize",
-    "provideClientKey": "as:provideClientKey",
-    "authorizeClientKey": "as:authorizeClientKey",
+    "liked": {
+      "@id": "as:liked",
+      "@type": "@id"
+    },
+    "oauthAuthorizationEndpoint": {
+      "@id": "as:oauthAuthorizationEndpoint",
+      "@type": "@id"
+    },
+    "oauthTokenEndpoint": {
+      "@id": "as:oauthTokenEndpoint",
+      "@type": "@id"
+    },
+    "provideClientKey": {
+      "@id": "as:provideClientKey",
+      "@type": "@id"
+    },
+    "signClientKey": {
+      "@id": "as:signClientKey",
+      "@type": "@id"
+    },
+    "sharedInbox": {
+      "@id": "as:sharedInbox",
+      "@type": "@id"
+    },
     "source": "as:source"
   }
 }
