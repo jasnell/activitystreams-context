@@ -1,6 +1,6 @@
 {
   "name": "activitystreams-context",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Activity Streams 2.0 JSON-LD Context",
   "main": "./context.json",
   "scripts": {},
@@ -15,7 +15,7 @@
     "Activity Streams"
   ],
   "maintainers": [
-    "James M Snell <jasnell@gmail.com> (http://jasnell.me)"
+    "James M Snell <jasnell@gmail.com>"
   ],
   "repository": {
     "type": "git",
