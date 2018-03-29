@@ -72,10 +72,6 @@
       "@id": "as:relationship",
       "@type": "@id"
     },
-    "totalItems": {
-      "@id": "as:totalItems",
-      "@type": "xsd:nonNegativeInteger"
-    },
     "actor": {
       "@id": "as:actor",
       "@type": "@id"
@@ -279,6 +275,10 @@
       "@id": "as:summary",
       "@container": "@language"
     },
+    "totalItems": {
+      "@id": "as:totalItems",
+      "@type": "xsd:nonNegativeInteger"
+    },
     "units": "as:units",
     "updated": {
       "@id": "as:updated",
@@ -357,6 +357,18 @@
       "@id": "as:sharedInbox",
       "@type": "@id"
     },
-    "source": "as:source"
+    "Public": {
+      "@id": "as:Public",
+      "@type": "@id"
+    },
+    "source": "as:source",
+    "likes": {
+      "@id": "as:likes",
+      "@type": "@id"
+    },
+    "shares": {
+      "@id": "as:shares",
+      "@type": "@id"
+    }
   }
 }
